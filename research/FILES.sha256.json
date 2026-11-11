@@ -1,0 +1,114 @@
+{
+  "analyze_results.py": {
+    "bytes": 2032,
+    "sha256": "169c7eadc202e6ad35f583f462277ad36fb07cbfaff3ce2b802eda448a902e84"
+  },
+  "config.json": {
+    "bytes": 2748,
+    "sha256": "f0b3ee9a2de25d39aa0cda3c71ef942ec96e9867ea822706e7d64fb8e8639f60"
+  },
+  "configs/rbf_shift_v1.json": {
+    "bytes": 154,
+    "sha256": "1e286673962095e6f4977dd776e944c993bc6c749b970bb11f6618f31737519c"
+  },
+  "data/ptrans_normalized_dataset.jsonl.gz": {
+    "bytes": 12223348,
+    "sha256": "f84753e57507a0d3ea8caa2766823d92141a1df6c88df7bfec88bc0814d468fd"
+  },
+  "data/ptrans_smiles_aug_train_v1.jsonl.gz": {
+    "bytes": 1033373,
+    "sha256": "f710541704eb5bff0a195cca8c7428561e22e9b349332041aab7442b18bf2241"
+  },
+  "data/ptrans_smiles_aug_train_v1.meta.json": {
+    "bytes": 1001,
+    "sha256": "dbc65be1d2199c103f978ee0da5f3285848f7e3d0403f0fc8bde284a21a1122c"
+  },
+  "data/ptrans_spectral_anomalies.csv": {
+    "bytes": 9435,
+    "sha256": "7bd710e08d678a30bb358de08df47f57f258cd9c0e2d6a82264c8e140daecaca"
+  },
+  "data/ptrans_split_manifest.csv": {
+    "bytes": 5601729,
+    "sha256": "160fb23aa41a93f3e40693c7d3e551ce3265a85d10537b22e4bf003c17e89fd1"
+  },
+  "data/ptrans_summary.json": {
+    "bytes": 616,
+    "sha256": "872fa494408aab43bcd652fa8ebd9c5a69f5f58e13f5ee4b25a73bea081895cc"
+  },
+  "data/train_molecular_library.meta.json": {
+    "bytes": 1418781,
+    "sha256": "ac3a889894f787325de6222c8f05668087f87b26eaf91f2f407f65f3843426bf"
+  },
+  "data/train_molecular_library.npz": {
+    "bytes": 1631031,
+    "sha256": "a5d9ba199f99e06c1059f92a106ba6a753c04fecd7ab5bdf35ba96fd0b9d1340"
+  },
+  "evaluate_group.py": {
+    "bytes": 9597,
+    "sha256": "340de6c20eec59ce905a766b1cd6bbadc283a93d280245a0c3d69484be40f02d"
+  },
+  "frozen_heads.py": {
+    "bytes": 4093,
+    "sha256": "54d3954785ed7f0b7025f91e2f3b4b901318718b52eaba484930ab854f00eaae"
+  },
+  "prepare_group_cache.py": {
+    "bytes": 8288,
+    "sha256": "ea38e9a4c2344b283c8351c0cd4652047d11b841ce97bd159bac777101039609"
+  },
+  "ptrans_pcenter.py": {
+    "bytes": 10009,
+    "sha256": "80093848e445730a8b4fc68ead0b18786e59347c42762e364829e7fd26ebd8d6"
+  },
+  "ptrans_rbf.py": {
+    "bytes": 4996,
+    "sha256": "2ecd74be4967c93cd3daf43c24bbe1b1245ae63205d8c51955d3345d154b5f1a"
+  },
+  "ptrans_review_worker_v1.py": {
+    "bytes": 21858,
+    "sha256": "870f35a6eb594d6552b03bcda9bd9460f792d3c9f1f59ab0ca333fb77de65f88"
+  },
+  "ptrans_score_tokens_v2.py": {
+    "bytes": 1537,
+    "sha256": "cce450f2830213a4d6eea831fcbff036839fea7c87bf714a8f91b2c8293a144e"
+  },
+  "ptrans_smiles_aug.py": {
+    "bytes": 9281,
+    "sha256": "e68498b82cb13344dd6e72001d35904d26ab08fc7297f2ff31c0b309fbdf74b1"
+  },
+  "ptrans_train_arch.py": {
+    "bytes": 23980,
+    "sha256": "97cee65688b77a636181b63831060f977e789d54499f3ba8d3a0445245587aca"
+  },
+  "ptrans_train_baseline.py": {
+    "bytes": 31114,
+    "sha256": "a9ed2625b53c19d7299a9b3cb59768fab16b9946b278d3d6678d04d0553e4b07"
+  },
+  "ptrans_train_smiles_aug.py": {
+    "bytes": 8408,
+    "sha256": "720de709aa4cb3db8eda540b33ff91994b480c2643f68be35173010175b6a6c7"
+  },
+  "retrain_common.py": {
+    "bytes": 10249,
+    "sha256": "17ce9d73b963b4ddd1e2300d46288953ebc468591e8e5349ab51bb7a218ebbc8"
+  },
+  "retrain_queue.py": {
+    "bytes": 12424,
+    "sha256": "56ad133e879782a7e9f817a97c6c71604c2a49575000709b4df5f7d234360d11"
+  },
+  "retrain_worker.py": {
+    "bytes": 2930,
+    "sha256": "08f2840fbe3bcc17f903296a910d25f7b4f89a3c15ea8ba11bd4a756c252d063"
+  },
+  "system_core.py": {
+    "bytes": 14209,
+    "sha256": "d08c773fe3e5c6b7568a001cab7a24ea3a766a39ede21059b0ed609358fb8909"
+  },
+  "train_generator.py": {
+    "bytes": 5581,
+    "sha256": "bddc59432814dc16a63e065160945f0f52a755b2cc4476cbe7ead7f79deaa962"
+  },
+  "train_heads.py": {
+    "bytes": 7928,
+    "sha256": "e205712fbf28971a2402fd451235ebe2558992367fa27834d0c353b259179c90"
+  }
+}

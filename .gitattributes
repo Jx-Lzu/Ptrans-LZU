@@ -1,0 +1,3 @@
+# Preserve exact bytes for file and training-source integrity checks.
+* -text
+*.safetensors binary

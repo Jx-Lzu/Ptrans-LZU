@@ -1,0 +1,87 @@
+{
+  "system": "PTrans HCP complete system",
+  "device": "cpu",
+  "torch": "2.13.0+cpu",
+  "rdkit": "2025.09.4",
+  "mass_tolerance_ppm": 5,
+  "records": [
+    {
+      "sample_id": "format-demo",
+      "known_mass_da": 180.055,
+      "pool_size": 51,
+      "mass_matches": 0,
+      "candidates": [
+        {
+          "final_rank": 1,
+          "canonical_smiles": "CCOP(=O)(O)C(N)Cl",
+          "candidate_exact_mass": 173.00085745799998,
+          "mass_error_ppm": -39177.70982199896,
+          "mass_match": false
+        },
+        {
+          "final_rank": 2,
+          "canonical_smiles": "CCOP(=O)(O)[C@H](C)N",
+          "candidate_exact_mass": 153.055479874,
+          "mass_error_ppm": -149951.5155147038,
+          "mass_match": false
+        },
+        {
+          "final_rank": 3,
+          "canonical_smiles": "CCOP(=O)(OCC)C(Cl)P(=O)(O)O",
+          "candidate_exact_mass": 265.987589076,
+          "mass_error_ppm": 477257.44398100575,
+          "mass_match": false
+        },
+        {
+          "final_rank": 4,
+          "canonical_smiles": "CCOP(=O)(OCC)[C@H](C)O",
+          "candidate_exact_mass": 182.07079559,
+          "mass_error_ppm": 11195.443558912453,
+          "mass_match": false
+        },
+        {
+          "final_rank": 5,
+          "canonical_smiles": "CCOP(=O)(OCC)C(N)Cl",
+          "candidate_exact_mass": 201.03215758599998,
+          "mass_error_ppm": 116504.16587153911,
+          "mass_match": false
+        },
+        {
+          "final_rank": 6,
+          "canonical_smiles": "CCOP(=O)(OCC)[C@H](C)N",
+          "candidate_exact_mass": 181.08678000199998,
+          "mass_error_ppm": 5730.360178834115,
+          "mass_match": false
+        },
+        {
+          "final_rank": 7,
+          "canonical_smiles": "CCOP(=O)(O)C(N)P(=O)(O)OCC",
+          "candidate_exact_mass": 247.03746046000003,
+          "mass_error_ppm": 372011.1102718615,
+          "mass_match": false
+        },
+        {
+          "final_rank": 8,
+          "canonical_smiles": "CCOP(=O)(O)[C@@H](C)N",
+          "candidate_exact_mass": 153.055479874,
+          "mass_error_ppm": -149951.5155147038,
+          "mass_match": false
+        },
+        {
+          "final_rank": 9,
+          "canonical_smiles": "CCOP(=O)(O)C(Cl)P(=O)(O)OCC",
+          "candidate_exact_mass": 265.987589076,
+          "mass_error_ppm": 477257.44398100575,
+          "mass_match": false
+        },
+        {
+          "final_rank": 10,
+          "canonical_smiles": "CCOP(=O)(O)[C@H](C)O",
+          "candidate_exact_mass": 154.039495462,
+          "mass_error_ppm": -144486.43213462562,
+          "mass_match": false
+        }
+      ]
+    }
+  ]
+}

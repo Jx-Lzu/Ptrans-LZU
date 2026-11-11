@@ -1,0 +1,28 @@
+{
+  "sample_id": "format-demo",
+  "nmr": {
+    "1H": [
+      {
+        "shift_ppm": 1.31,
+        "multiplicity": "t",
+        "integral_protons": 3,
+        "coupling_hz": [
+          7.1
+        ]
+      },
+      4.04
+    ],
+    "13C": [
+      16.2,
+      62.4
+    ],
+    "31P": [
+      19.7
+    ]
+  },
+  "known_mass": {
+    "type": "monoisotopic_mass",
+    "value_da": 180.055,
+    "source": "synthetic format example; not an experimental measurement"
+  }
+}

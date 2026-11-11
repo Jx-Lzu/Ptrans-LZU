@@ -1,0 +1,12 @@
+{
+  "basis_count": 64,
+  "bandwidth_multipliers": [
+    1.0,
+    2.0
+  ],
+  "quantiles": [
+    0.005,
+    0.995
+  ],
+  "range_margin": 0.05
+}
