@@ -1,0 +1,8 @@
+Real_phosphorus_molecules_complete.csv   原始真实数据 22227行
+Stimulated_merged_molecules_complete.csv 原始模拟数据 66618行
+
+Real_phosphorus_molecules_clean.csv   清洗真实数据-提取出位移与分子数 22227行
+Stimulated_merged_molecules_clean.csv 清洗模拟数据-提取出位移与分子数 66618行
+
+Dout_real.csv       真实数据-移除异常值 22119行
+Dout_stimulated.csv 模拟数据-移除异常值 63923行
