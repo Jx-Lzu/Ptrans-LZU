@@ -1,0 +1,28 @@
+{
+  "format": "ptrans_smiles_aug_train_variants_v1",
+  "dataset_fingerprint": "097ed456184062af6c8c95d24eacaaa2cd083d1fcd47acd546a318998e8beca3",
+  "seed": 42,
+  "rdkit_version": "2025.09.4",
+  "training_records": 17782,
+  "distinct_training_structures": 17111,
+  "max_target_tokens": 384,
+  "variants_requested_per_structure": 4,
+  "random_attempts_per_structure": 24,
+  "records_with_variants": 17782,
+  "variant_strings_by_record": 71127,
+  "rejected_unique_structure_candidates": {
+    "same_spelling": 502,
+    "non_equivalent": 10,
+    "unknown_token": 5,
+    "too_long": 0
+  },
+  "vocabulary_sha256": "ae17a9de2d1ad9f8a9b2a8525a8503661489ac5fd3fb83afe8d0943bcbf3b35c",
+  "vocabulary_size": 109,
+  "training_only": true,
+  "stereochemistry_retained": true,
+  "vocabulary_expanded": false,
+  "target_truncation": false,
+  "new_training_performed": false,
+  "cache_sha256": "f710541704eb5bff0a195cca8c7428561e22e9b349332041aab7442b18bf2241",
+  "cache_bytes": 1033373
+}

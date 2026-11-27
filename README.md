@@ -2,7 +2,7 @@
 
 PTrans generates candidate structures from experimental ¹H, ¹³C and ³¹P peak lists and reranks them using a supplied neutral monoisotopic mass.
 
-本仓库发布论文最终的 **HCP 完整系统**。三个生成器和两个评分头共含 13,831,313 个参数。模型根据三核峰表生成、评分、合并候选，再应用固定 ±5 ppm 的精确质量优先排序。运行预测只需要本仓库中的文件。
+本仓库发布论文最终的 **HCP 完整系统**。三个生成器和两个评分头共含 13,831,313 个参数。模型根据三核峰表生成、评分、合并候选，再应用固定 ±5 ppm 的精确质量优先排序。运行预测只需要本仓库中的文件。本完整包同时附带研究训练所需的八个固定数据文件，位于 `research/data/`。
 
 ## 快速预测
 
@@ -72,8 +72,36 @@ python predict.py --input examples/input.json --output results/prediction.json -
 
 - [验证与测试指标](evaluation/hcp_metrics.json)含本次发布系统的质量开关对照与生成结构的 R1/R2 指标。独立的磷中心分类探针属于另一实验，此仓库未打包其权重。
 - [模型来源](evaluation/weight_provenance.json)给出五个原始检查点及张量的 SHA‑256。[划分清单](evaluation/split_ids.csv)仅包含内部记录 ID 和分区，训练、验证、测试分别为 17,782、2,222、2,222 条。
-- [研究代码与复现说明](research/README.md)包括主六组实验的训练和评估实现。原始谱图、规范化训练集、增强缓存及分子库的再分发权限尚未明确，这些文件未随仓库发布。
+- [研究代码与复现说明](research/README.md)包括主六组实验的训练和评估实现。本完整研究包已附规范化训练集、划分清单、训练SMILES增强缓存、训练分子特征库、异常清单和统计摘要。原始实验CSV没有重复打包。数据来源及再分发授权仍需与代码和权重的MIT许可证分开处理。
 - 论文训练环境为 Python 3.10.8、PyTorch 2.6.0+cu124、NumPy 2.2.6、RDKit 2025.09.4。发布转换对全部五份参数逐张量比对，并在本机 CPU 上使用同一合成输入与原始系统比对完整候选池和最终排序。
+
+## 完整包数据检查
+
+本包由原推理发布包与训练数据补充包合并。原有五份模型权重、模型配置和研究训练代码保持原字节；仅更新说明、忽略规则及校验清单，并增加数据和准备脚本。
+
+在仓库根目录运行以下检查，不会启动训练或神经网络预测：
+
+~~~bash
+python verify_release.py
+python verify_training_data_supplement.py
+~~~
+
+两项检查均只需Python标准库。完整包新增的八份数据与原 `research/FILES.sha256.json` 的大小和SHA-256一致。另附 `research/ptrans_prepare.py` 与 `research/ptrans_prepare_smiles_aug.py`；具体用途和可选重建命令见 `TRAINING_DATA_SUPPLEMENT_README.txt`。
+
+研究环境在上述基础依赖之外，还需 pandas 2.2.3 供规范化准备脚本使用。在仓库根目录安装：
+
+~~~bash
+python -m pip install -r requirements-research.txt
+~~~
+
+Linux研究环境准备完成后，可在仓库根目录使用已有入口启动六组重训：
+
+~~~bash
+python research/retrain_queue.py start --parallel 2
+python research/retrain_queue.py status
+~~~
+
+这些是实际训练命令，不属于包校验流程。本次合并没有新增训练或重新计算论文性能。
 
 ## 许可证
 

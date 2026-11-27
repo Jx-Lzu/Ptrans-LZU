@@ -1,0 +1,78 @@
+{
+  "format": "ptrans_training_data_supplement_v1",
+  "date": "2026-11-27",
+  "data_file_count": 8,
+  "original_data_bytes": 21919314,
+  "original_manifest": "outputs/PTrans-GitHub-HCP/research/FILES.sha256.json",
+  "original_manifest_sha256": "04ea79eddf4e6ca25ec3b8532b54f2bd357ddc252b48ba5aca832f41336168f1",
+  "files": {
+    "research/data/ptrans_normalized_dataset.jsonl.gz": {
+      "bytes": 12223348,
+      "sha256": "f84753e57507a0d3ea8caa2766823d92141a1df6c88df7bfec88bc0814d468fd",
+      "source": "outputs\\PTrans_Retrain6_FullSystem\\data\\ptrans_normalized_dataset.jsonl.gz",
+      "matched_original_research_manifest": true
+    },
+    "research/data/ptrans_smiles_aug_train_v1.jsonl.gz": {
+      "bytes": 1033373,
+      "sha256": "f710541704eb5bff0a195cca8c7428561e22e9b349332041aab7442b18bf2241",
+      "source": "outputs\\PTrans_Retrain6_FullSystem\\data\\ptrans_smiles_aug_train_v1.jsonl.gz",
+      "matched_original_research_manifest": true
+    },
+    "research/data/ptrans_smiles_aug_train_v1.meta.json": {
+      "bytes": 1001,
+      "sha256": "dbc65be1d2199c103f978ee0da5f3285848f7e3d0403f0fc8bde284a21a1122c",
+      "source": "outputs\\PTrans_Retrain6_FullSystem\\data\\ptrans_smiles_aug_train_v1.meta.json",
+      "matched_original_research_manifest": true
+    },
+    "research/data/ptrans_spectral_anomalies.csv": {
+      "bytes": 9435,
+      "sha256": "7bd710e08d678a30bb358de08df47f57f258cd9c0e2d6a82264c8e140daecaca",
+      "source": "outputs\\PTrans_Retrain6_FullSystem\\data\\ptrans_spectral_anomalies.csv",
+      "matched_original_research_manifest": true
+    },
+    "research/data/ptrans_split_manifest.csv": {
+      "bytes": 5601729,
+      "sha256": "160fb23aa41a93f3e40693c7d3e551ce3265a85d10537b22e4bf003c17e89fd1",
+      "source": "outputs\\PTrans_Retrain6_FullSystem\\data\\ptrans_split_manifest.csv",
+      "matched_original_research_manifest": true
+    },
+    "research/data/ptrans_summary.json": {
+      "bytes": 616,
+      "sha256": "872fa494408aab43bcd652fa8ebd9c5a69f5f58e13f5ee4b25a73bea081895cc",
+      "source": "outputs\\PTrans_Retrain6_FullSystem\\data\\ptrans_summary.json",
+      "matched_original_research_manifest": true
+    },
+    "research/data/train_molecular_library.meta.json": {
+      "bytes": 1418781,
+      "sha256": "ac3a889894f787325de6222c8f05668087f87b26eaf91f2f407f65f3843426bf",
+      "source": "outputs\\PTrans_Retrain6_FullSystem\\data\\train_molecular_library.meta.json",
+      "matched_original_research_manifest": true
+    },
+    "research/data/train_molecular_library.npz": {
+      "bytes": 1631031,
+      "sha256": "a5d9ba199f99e06c1059f92a106ba6a753c04fecd7ab5bdf35ba96fd0b9d1340",
+      "source": "outputs\\PTrans_Retrain6_FullSystem\\data\\train_molecular_library.npz",
+      "matched_original_research_manifest": true
+    },
+    "research/ptrans_prepare.py": {
+      "bytes": 13135,
+      "sha256": "380619290bd3a6417e4a3efd3017ff098dac48e06e6ddd11b8089f3ddd94caaf",
+      "source": "work\\complete_review_20261102\\PTrans_4090\\ptrans_prepare.py",
+      "matched_original_research_manifest": null
+    },
+    "research/ptrans_prepare_smiles_aug.py": {
+      "bytes": 1552,
+      "sha256": "1cc4ae536135e0d9c5d21e95369dcc7d34bc2b2f7c1dc48812200e34ef1140dd",
+      "source": "work\\complete_review_20261102\\PTrans_4090\\ptrans_prepare_smiles_aug.py",
+      "matched_original_research_manifest": null
+    },
+    "TRAINING_DATA_SUPPLEMENT_README.txt": {
+      "bytes": 2916,
+      "sha256": "326a5c14ab7359440c4788bfa971c8514df8048e589a63d92ae1d60acd200947"
+    },
+    "verify_training_data_supplement.py": {
+      "bytes": 4911,
+      "sha256": "4d8c102a4ee84eab12a82b510b5fc60de4d79b93fbfbaadc673c1bef465436df"
+    }
+  }
+}

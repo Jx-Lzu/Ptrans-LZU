@@ -1,4 +1,28 @@
 {
+  ".gitattributes": {
+    "bytes": 102,
+    "sha256": "3ad410e23e21535789202861d212c41342c46e4a3cfba0d09ad7962711e1fd0b"
+  },
+  ".gitignore": {
+    "bytes": 572,
+    "sha256": "b1d3d76c56aec7e15ec0fcd6fae346d3a64f5d5fc0e859a13f48002704959d14"
+  },
+  "LICENSE": {
+    "bytes": 1077,
+    "sha256": "5ca2920d4f56954100c8f365461aba7b6c6154da49734f7b2703d9275ad49d11"
+  },
+  "README.md": {
+    "bytes": 6711,
+    "sha256": "37bb3ec7ec414bf2c1e99ad056736c5c56870977edac3be1ae24c258d222ede4"
+  },
+  "TRAINING_DATA_SUPPLEMENT.sha256.json": {
+    "bytes": 3775,
+    "sha256": "9cbfef4d53afe359886e9e94b96762d2a619a282bf1f7c6a5f6db009bfd5b478"
+  },
+  "TRAINING_DATA_SUPPLEMENT_README.txt": {
+    "bytes": 2916,
+    "sha256": "326a5c14ab7359440c4788bfa971c8514df8048e589a63d92ae1d60acd200947"
+  },
   "evaluation/hcp_metrics.json": {
     "bytes": 2992,
     "sha256": "e3e7ad5c0227863959a82ca5b59da53be2a9797507d8c91e2fb7aa25b4ed3fc5"
@@ -31,9 +55,21 @@
     "bytes": 2334,
     "sha256": "8b726222d89fe12c86f87c0a988398eec6ac8d6ade5887a7d9b19e8f2e7c21fa"
   },
+  "requirements-research.txt": {
+    "bytes": 34,
+    "sha256": "4f1ad52dc19ef5345e5e677f4b0df4010338ae7834655b0956fa50ef9bf8f83d"
+  },
   "requirements.txt": {
     "bytes": 65,
     "sha256": "5b906e66811f70b109f8e3b1b158923516b4af0394cd0e29a9ca74338c060d4a"
+  },
+  "research/FILES.sha256.json": {
+    "bytes": 3955,
+    "sha256": "04ea79eddf4e6ca25ec3b8532b54f2bd357ddc252b48ba5aca832f41336168f1"
+  },
+  "research/README.md": {
+    "bytes": 2777,
+    "sha256": "364c01740f336d0ca56187ce627f669a67a5b2cf870c8669a180224d5fcf2644"
   },
   "research/analyze_results.py": {
     "bytes": 2032,
@@ -47,13 +83,41 @@
     "bytes": 154,
     "sha256": "1e286673962095e6f4977dd776e944c993bc6c749b970bb11f6618f31737519c"
   },
+  "research/data/ptrans_normalized_dataset.jsonl.gz": {
+    "bytes": 12223348,
+    "sha256": "f84753e57507a0d3ea8caa2766823d92141a1df6c88df7bfec88bc0814d468fd"
+  },
+  "research/data/ptrans_smiles_aug_train_v1.jsonl.gz": {
+    "bytes": 1033373,
+    "sha256": "f710541704eb5bff0a195cca8c7428561e22e9b349332041aab7442b18bf2241"
+  },
+  "research/data/ptrans_smiles_aug_train_v1.meta.json": {
+    "bytes": 1001,
+    "sha256": "dbc65be1d2199c103f978ee0da5f3285848f7e3d0403f0fc8bde284a21a1122c"
+  },
+  "research/data/ptrans_spectral_anomalies.csv": {
+    "bytes": 9435,
+    "sha256": "7bd710e08d678a30bb358de08df47f57f258cd9c0e2d6a82264c8e140daecaca"
+  },
+  "research/data/ptrans_split_manifest.csv": {
+    "bytes": 5601729,
+    "sha256": "160fb23aa41a93f3e40693c7d3e551ce3265a85d10537b22e4bf003c17e89fd1"
+  },
+  "research/data/ptrans_summary.json": {
+    "bytes": 616,
+    "sha256": "872fa494408aab43bcd652fa8ebd9c5a69f5f58e13f5ee4b25a73bea081895cc"
+  },
+  "research/data/train_molecular_library.meta.json": {
+    "bytes": 1418781,
+    "sha256": "ac3a889894f787325de6222c8f05668087f87b26eaf91f2f407f65f3843426bf"
+  },
+  "research/data/train_molecular_library.npz": {
+    "bytes": 1631031,
+    "sha256": "a5d9ba199f99e06c1059f92a106ba6a753c04fecd7ab5bdf35ba96fd0b9d1340"
+  },
   "research/evaluate_group.py": {
     "bytes": 9597,
     "sha256": "340de6c20eec59ce905a766b1cd6bbadc283a93d280245a0c3d69484be40f02d"
-  },
-  "research/FILES.sha256.json": {
-    "bytes": 3955,
-    "sha256": "04ea79eddf4e6ca25ec3b8532b54f2bd357ddc252b48ba5aca832f41336168f1"
   },
   "research/frozen_heads.py": {
     "bytes": 4093,
@@ -66,6 +130,14 @@
   "research/ptrans_pcenter.py": {
     "bytes": 10009,
     "sha256": "80093848e445730a8b4fc68ead0b18786e59347c42762e364829e7fd26ebd8d6"
+  },
+  "research/ptrans_prepare.py": {
+    "bytes": 13135,
+    "sha256": "380619290bd3a6417e4a3efd3017ff098dac48e06e6ddd11b8089f3ddd94caaf"
+  },
+  "research/ptrans_prepare_smiles_aug.py": {
+    "bytes": 1552,
+    "sha256": "1cc4ae536135e0d9c5d21e95369dcc7d34bc2b2f7c1dc48812200e34ef1140dd"
   },
   "research/ptrans_rbf.py": {
     "bytes": 4996,
@@ -126,6 +198,10 @@
   "verify_release.py": {
     "bytes": 728,
     "sha256": "14c86fb9e2efa168c9efe0aa3a1d7ff29498df776bd8baf304ef96bd21cdb811"
+  },
+  "verify_training_data_supplement.py": {
+    "bytes": 4911,
+    "sha256": "4d8c102a4ee84eab12a82b510b5fc60de4d79b93fbfbaadc673c1bef465436df"
   },
   "weights/element.safetensors": {
     "bytes": 933564,

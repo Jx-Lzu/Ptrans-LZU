@@ -1,0 +1,25 @@
+{
+  "input_file": "data/raw/experimental.csv.gz (SHA-256 is for decompressed CSV bytes)",
+  "input_sha256": "cf3be57a15a944de40f513190ae286dffc3417942270937cddd9151c8b026217",
+  "records": 22226,
+  "unique_canonical_smiles": 21357,
+  "p_atom_count_distribution": {
+    "1": 21304,
+    "2": 829,
+    "3": 64,
+    "4": 16,
+    "5": 5,
+    "6": 4,
+    "7": 1,
+    "9": 3
+  },
+  "split_counts": {
+    "train": 17782,
+    "val": 2222,
+    "test": 2222
+  },
+  "random_seed": 42,
+  "mass_column_matches_rdkit_exact_mass_count": 22226,
+  "anomaly_signal_count": 65,
+  "rdkit_version": "2025.09.4"
+}

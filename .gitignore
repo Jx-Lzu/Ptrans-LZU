@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 .env
 .env.*
-research/data/
+research/data/*
 research/runs/
 results/
 predictions.json
@@ -11,3 +11,13 @@ predictions.json
 *.pth
 *.ckpt
 *.log
+
+# Fixed research inputs supplied with the complete package
+!research/data/ptrans_normalized_dataset.jsonl.gz
+!research/data/ptrans_smiles_aug_train_v1.jsonl.gz
+!research/data/ptrans_smiles_aug_train_v1.meta.json
+!research/data/ptrans_spectral_anomalies.csv
+!research/data/ptrans_split_manifest.csv
+!research/data/ptrans_summary.json
+!research/data/train_molecular_library.meta.json
+!research/data/train_molecular_library.npz
